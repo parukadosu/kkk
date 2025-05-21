@@ -1,0 +1,236 @@
+html {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Noto Sans JP', sans-serif;  
+}
+
+.pop {font-family: 'Poppins', sans-serif;}
+
+.container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header {
+    padding: 27px 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+.logo span {
+    color: darkred;
+}
+.header-menu li {
+    margin-left: 40px;
+}
+.header-menu li a {
+    transition: .3s;
+}
+.header-menu li a:hover {
+    color: darkred;
+    transition: .3s;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+#hero::before {
+    content:'';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: 1;
+}
+.hero_inner {
+z-index: 2;
+color: aliceblue;
+width: 100%;
+text-align: center;
+}
+.hero_inner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hero_inner h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+#About {
+    margin-bottom: 120px;
+}
+.title {
+    font-size: 20px;
+    font-weight: 500;
+    color: darkred;
+    margin-bottom: 40px;
+}
+#About h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 70px;
+}
+.column-2 {
+    width: 48%;
+}
+#About li {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}  
+
+.About-img {
+
+    background-image: url(../images/About.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    border-radius: 20px;
+
+}
+.heading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 200px;
+    font-weight: 700;
+    color: darkred;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-73%);
+    z-index: -1;
+}
+#What {
+    margin-bottom: 120px;
+}
+.What I Learned_inner {
+    margin-bottom: 40px;
+}
+.column-40 {
+    width: 40%;
+}
+.column-55 {
+    width: 55%;
+}
+#What img {
+    border-radius: 20px;
+}
+#What h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#What li {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.heading2 {font-family: 'Dancing Script', cursive;
+    font-size: 200px;
+    font-weight: 700;
+    color: darkred;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-23%);
+    z-index: -1;
+
+}
+#Experiences h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+#Experiences li {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#Experiences img {
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+#Future h3 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.Fu-img {background-image: url(../images/hh.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    border-radius: 20px;
+    
+}
+.heading3 {font-family: 'Dancing Script', cursive;
+    font-size: 200px;
+    font-weight: 700;
+    color: darkred;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%);
+    z-index: -1;
+}
+#Future {
+    margin-bottom: 120px;
+}
+.end_inner {
+    z-index: 2;
+    color: black;
+    width: 100%;
+    text-align: center;
+    }
+
+#end {
+    margin-bottom: 120px;
+}
+.end_inner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.end_inner h1 {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.heading5 { font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    color: darkred;
+    opacity: 1;
+    position: center;
+    top: 0;
+    right: 0;
+    transform: translate(0.5%);
+    z-index: -1;
+
+}
+    
